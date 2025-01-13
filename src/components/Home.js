@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from 'react-router-dom'
 import '../styles/Home.css';
 
-const inviteBotLink = 'https://discord.com/oauth2/authorize?client_id=1327305617530032261&permissions=8&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A4000%2F&integration_type=0&scope=bot+applications.commands';
+const inviteBotLink = 'https://discord.com/oauth2/authorize?client_id=1327305617530032261&permissions=8&response_type=code&redirect_uri=https%3A%2F%2Fcupid-bot-invite.onrender.com&integration_type=0&scope=bot+applications.commands';
 
 function Home() {
   return (
